@@ -6,7 +6,7 @@ int main(){
         for(j = 1; j <= n; j++){
             printf("%c", (i ==1 || i == n || j == 1 || j == n) * '*' + (i > 1 && i < n && j > 1 && j < n) * ' ');
         }
-        print("\n");
+        printf("\n");
     }
     return 0;
 }
