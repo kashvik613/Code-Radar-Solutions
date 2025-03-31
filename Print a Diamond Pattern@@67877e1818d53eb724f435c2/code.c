@@ -2,8 +2,6 @@
 
 int main() {
     int n, i, j, space;
-    
-    printf("Enter the number of rows (odd number): ");
     scanf("%d", &n);
     
     // Upper half of the diamond
